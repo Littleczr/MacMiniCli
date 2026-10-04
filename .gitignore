@@ -1,0 +1,38 @@
+# Build output and Visual Studio state
+build/
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.log
+*.zip
+
+# Local captures, acceptance artifacts, and private configuration
+local-checks-*/
+acceptance-evidence-*/
+captures/
+*.local.ps1
+*.local.json
+.env
+.env.*
+.ssh/
+known_hosts
+id_rsa*
+id_ed25519*
+*.pem
+*.key
+
+# Historical private work products
+_archive/
+r11-harness-checks-*/
+r11-local-launcher-*/
+self-test.*
+flood-baseline.*
+host-trust-evidence.json
+ssh-setup-evidence.json
+trusted-*-host-*.pub
